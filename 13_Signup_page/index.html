@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Signup Page Using HTML and CSS</title>
+  </head>
+  <body>
+    <div class="hero">
+      <h1>Create an account</h1>
+      <div class="signup-box">
+        <div class="left-box">
+          <form>
+            <input
+              type="text"
+              placeholder="Your name"
+              required
+              class="input-box"
+            />
+            <input
+              type="text"
+              placeholder="username"
+              required
+              class="input-box"
+            />
+            <input
+              type="email"
+              placeholder="Your email address"
+              required
+              class="input-box"
+            />
+            <input
+              type="password"
+              placeholder="Create password"
+              required
+              class="input-box"
+            />
+            <input type="checkbox" id="terms" />
+            <label for="terms">I accept the terms & conditions.</label>
+            <button type="submit">SIGN UP <span>&#x27f6;</span></button>
+          </form>
+        </div>
+        <div class="right-box">
+          <a class="fb-link" href="#"><i class="fab fa-facebook-f"></i> Connect with facebook</a>
+          <a class="tw-link" href="#"><i class="fab fa-twitter"></i> Connect with twitter</a>
+          <a class="g-link" href="#"><i class="fab fa-google"></i> Connect with google</a>
+        </div>
+      </div>
+      <p class="login-msg">Already have an account? <a href="#">Login Now</a></p>
+    </div>
+  </body>
+</html>
