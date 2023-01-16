@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/sharect@2.0.0/dist/sharect.js"></script>
+    <title>Add Share Butto On Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-box">
+        <h1>What is Lorem?</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+          porro, quod fugiat nobis inventore, cum ut illum suscipit sapiente
+          provident, ad atque voluptatem in alias quas maxime veniam voluptas
+          voluptates? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Tenetur nemo vero ducimus voluptates architecto dolorem tempora
+          distinctio ullam nam ea.
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+          consequuntur recusandae? Rem, voluptatem? Nam sint, obcaecati vel
+          praesentium et voluptatibus dolorem officiis doloribus eveniet
+          laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reiciendis, facilis?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+          laudantium, commodi cupiditate voluptates nesciunt dolore incidunt
+          doloremque velit mollitia pariatur? Voluptas expedita eligendi velit
+          ex exercitationem aspernatur! Enim distinctio adipisci placeat fugit
+          id iusto quia, esse, numquam ab voluptas praesentium?
+        </p>
+      </div>
+    </div>
+    <script>
+        Sharect.config({
+            facebook:true,
+            twitter:true,
+            twitterUsername: '',
+            backgroundColor: 'blue',
+            iconColor: 'pink',
+            selectableElements: ['p']
+        })
+        Sharect.init();
+
+
+
+        // https://estevanmaito.github.io/sharect/#init  =====> Resource
+    </script>
+  </body>
+</html>
